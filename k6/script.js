@@ -5,7 +5,7 @@ export const options = {
   duration: '2s',
 };
 export default function () {
-  const res = http.get('https://qq.com');
+  const res = http.get('https://weibo.com');
   check(res, {
     'is status 200': (r) => r.status === 200,
   });
